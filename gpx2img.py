@@ -139,7 +139,7 @@ def cli():
 
             found, distance = nearest(exif_datetime, haystack)
             if distance > timedelta(minutes=timedelta_threshold):
-                print(f"WARNING! Distance bigger than {timedelta_threshold} mins: {distance}")
+                print(f"WARNING! Distance bigger than {timedelta_threshold} mins: {distance}, not updating image!")
             else:
                 print(f"Found good match! {distance}")
                 point = points_by_time[found]
