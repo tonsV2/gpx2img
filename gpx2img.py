@@ -10,7 +10,7 @@ import pytz
 # Inspiration: https://gist.github.com/c060604/8a51f8999be12fc2be498e9ca56adc72
 
 gpx_directory = './data/gpx'
-image_directory = './data/images/Nepal - Everest Basecamp 2016'
+image_directory = './data/images'
 
 timezone = "Asia/Katmandu"
 timedelta_threshold = 10
