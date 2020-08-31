@@ -1,4 +1,4 @@
-# Gpx2mg
+# Gpx2img
 Some years ago I went to Nepal for hiking. I tracked my treks using Endomondo and took photos using a Nikon D7000 camera.
 
 The D7000 doesn't have a GPS chip so in order to add GPS data to my photos I made this script.
