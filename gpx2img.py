@@ -143,4 +143,4 @@ def cli():
             else:
                 print(f"Found good match! {distance}")
                 point = points_by_time[found]
-                # set_gps_location(path, point.latitude, point.longitude, point.elevation)
+                set_gps_location(path, point.latitude, point.longitude, point.elevation)
