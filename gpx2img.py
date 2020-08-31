@@ -119,6 +119,9 @@ def set_gps_location(file_name, lat, lng, altitude):
 def cli():
     print("Parsing GPS files...")
     points_by_time = extract_points(gpx_directory)
+    if not len(points_by_time):
+        exit("ERROR: No points found!")
+
     haystack = sorted(points_by_time.keys())
 
     print("\nParsing image files...")
